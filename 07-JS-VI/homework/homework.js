@@ -17,31 +17,31 @@ function operacionMatematica(n1, n2, cb) {
   //Tu código:
 }
 
-function sumarArray(numeros, cb) {
+const sumarArray = (numeros, cb) => {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-}
+};
 
-function forEach(array, cb) {
+const forEach = (array, cb) => {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-}
+};
 
-function map(array, cb) {
+const map = (array, cb) => {
   // Crea un nuevo array
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-}
+};
 
-function filter(array) {
+const filter = (array) => {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
-}
+};
 
 // No modificar nada debajo de esta línea
 // --------------------------------
@@ -53,5 +53,5 @@ module.exports = {
   sumarArray,
   forEach,
   map,
-  filter
+  filter,
 };
